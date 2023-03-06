@@ -1,0 +1,46 @@
+.converter {
+    background-color: white;
+    padding: 3em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap : 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1em;
+    gap : 24px;
+}
+
+.devise-container input {
+    width: 342px;
+    height: 40px;
+    border-radius: 0.5em;
+    border: 1px solid #a5a7b1;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.container select {
+    width: 98px;
+    height: 40px;
+    border-radius: 0.5em;
+    border: 1px solid #a5a7b1;
+}
+
+.Result {
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    background-color: rgb(210, 211, 224);
+
+    border-radius: 0.5em;
+}
+
+
